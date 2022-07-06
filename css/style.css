@@ -401,7 +401,7 @@ h1, h2, h3, p, ul{
 .card-content{
     padding: var(--set-gap) ; 
     text-align: center;
-    background-color: #ffffff;
+    background-color: var(--primery-bg-color);
 
 }
 
@@ -671,13 +671,26 @@ h1, h2, h3, p, ul{
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-   
+   border-radius: 4px;
     min-height: 581px;
     min-width: 528px;
-    background-color: #fff;
-
-    
+    background-color: var(--primery-bg-color);
 }
+
+.modal-button{
+    display: flex;
+    
+    margin: 8px 8px auto auto;
+    background-image: url('../imeges/close.svg');
+    width: 30px;
+    height: 30px;
+    
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    border: 1px;
+}
+
 /* цвeт оснопного загаловка color: #FFFFFF; */
 /* цветт загаловков color: #212121; */
 /* цвет абзацов color: #757575; */
